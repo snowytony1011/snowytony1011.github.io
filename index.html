@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<html lang="en">
+
+    <head>
+        <title> Skinbag Ralph </title>
+    </head>
+
+    <body>
+        <div>
+            <a onclick="audio_playsound('title');">
+                <img src="images/title.png" height="80" width="614" class="center" />
+            </a>
+
+            <script>
+                var mus_skinbagralph = new Audio('music/mus_skin_bag_ralph.mp3');
+                var mus_settings = new Audio('music/mus_settings.ogg');
+                function audio_playsound(snd) {
+                switch(snd) {
+                case('title') :
+                mus_skinbagralph.play();
+                break;
+                case('settings') :
+                mus_settings.play();
+                break;
+                }
+                }
+            </script>
+
+        </div>
+
+
+        <!--
+
+    <h1 style="text-align:center"> Main </h1>
+
+    <p>Coming soon ...</p>
+    <p><a href="https://www.youtube.com/@skinbagralph/"> Skinbag Ralph youtube </a> </p>
+
+
+
+    <button onclick="location.href = '/contact'">Contact</button>
+        -->
+    </body>
+
+</html>
+

@@ -1,0 +1,41 @@
+@font-face {
+    font-family: sbr_font;
+    src: url(sbr_font.woff);
+}
+
+html {
+    background-color: black;
+    font-family: sbr_font;
+    font-size: 20px;
+    text-rendering: geometricPrecision;
+    color: white;
+}
+
+body {
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 250px;
+    max-width: 640px;
+    
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+a {
+    color: green;
+}
+a:hover {
+    color: orange;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+

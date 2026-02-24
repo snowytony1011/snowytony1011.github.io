@@ -11,12 +11,35 @@
 
 </head>
 
-    <body>
-        <div>
-            <p>Hey... What're you doing snooping around here?</p>
-            <p>There's nothing to find! So quit it!</p>
-        </div>
-    </body>
+<body>
+    <div>
+        <p>Hey! What're you doing snooping around here?</p>
+
+        <a onclick="audio_playsound('settings');">
+            <img src="images/construction.png" height="60" width="50" class="center" />
+        </a>
+
+        <script>
+            var mus_skinbagralph = new Audio('music/mus_skin_bag_ralph.mp3');
+            var mus_settings = new Audio('music/mus_settings.ogg');
+            function audio_playsound(snd) {
+            switch(snd) {
+            case('title') :
+            mus_skinbagralph.play();
+            break;
+            case('settings') :
+            mus_settings.play();
+            break;
+            }
+            }
+        </script>
+
+        <p>The website's under construction!</p>
+
+
+    </div>
+</body>
+
+   
 
 </html>
-
